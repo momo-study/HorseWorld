@@ -1,0 +1,100 @@
+body{
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  background-image: url("images/bg-game.jpg");
+  background-repeat:  no-repeat;
+  position:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+div#out{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  display:block;
+}
+
+div#horse-attr{
+  width: 50%;
+  height:100%;
+  position:relative;
+  float:left;
+  display:inline-block;
+}
+
+div#horse-compete{
+  width:50%;
+  height:100%;
+  position: relative;
+  float:right;
+  display:inline-block;
+}
+
+.before{
+  background-image: url("images/4.jpg");
+  width: 500px;
+  height:500px;
+  background-repeat:  no-repeat;
+  margin-top: 80px;
+  margin-left: 150px;
+  background-size:contain;
+}
+
+.after{
+  background-image: url("images/horse-img.jpg");
+  width: 500px;
+  height:500px;
+  margin-top: 80px;
+  margin-left: 150px;
+  background-size:contain;
+}
+
+p#addr{
+  text-align: center;
+  padding-top: 350px;
+}
+
+p#speed{
+  text-align: center;
+}
+
+p#balance{
+  text-align: center;
+}
+
+.hide{
+  display:none;
+}
+
+.show{
+  display: block;
+}
+
+button#horse-btn, #compete-btn{
+  margin-top: 20px;
+  margin-left: 370px;
+}
+
+.origin{
+  background-image: url("images/compete-horse.jpg");
+  width: 500px;
+  height:500px;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+.result{
+  background-image: url("images/win.jpg");
+  width: 500px;
+  height:500px;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  margin-left: 150px;
+}
